@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  padding: 16px;
+}
+
+.flex-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.person {
+  flex: 1;
+  min-width: 300px;
+  padding: 16px;
+  background-color: #ceeeec;
+}
